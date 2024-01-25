@@ -1,12 +1,18 @@
 
+import 'package:flutter/material.dart';
+
 void main() {
   runApp(const MyApp());
 
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+// hi from afnan
 
 
-<<<<<<< HEAD
+
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +22,7 @@ void main() {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -24,8 +30,4 @@ void main() {
 
 
 
-=======
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
->>>>>>> a66bec9 (lllllllll)
 
