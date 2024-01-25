@@ -6,6 +6,7 @@ void main() {
 
 
 
+<<<<<<< HEAD
 
   @override
   Widget build(BuildContext context) {
@@ -23,4 +24,8 @@ void main() {
 
 
 
+=======
+class _MyHomePageState extends State<MyHomePage> {
+  int _counter = 0;
+>>>>>>> a66bec9 (lllllllll)
 
